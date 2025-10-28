@@ -1,10 +1,11 @@
 # ITCS-2530-Week-2-Programming-Assignment
 
 ## Math Aptitude Analyzer
+
 ### Description 
 The Math Aptitude Analyzer is a simple C++ console program that asks the user about their math study habits and confidence level as their input. It calculates and displays the estimated number of math problems solved per hour, then writes the results in a formatted table to a text file called 'report.txt' (there is an example file of report.txt inside the repo).
 
-###Features
+### Features
 1) Welcomes the user with a friendly banner
 2) Collects User Input:
    * Full name
@@ -22,5 +23,6 @@ The Math Aptitude Analyzer is a simple C++ console program that asks the user ab
 3) Open your terminal and navigate to the project directory
 4) Compile/Run the program
 5) If you enter invalid data type for integer or double type, then you will see a default value for that variable. You can re-run/restart the program to enter correct data types for each variable.
+
 
 ![Image of a Thank You Message](https://emilypost.com/client_media/images/ways-to-be-thankful.jpg)
