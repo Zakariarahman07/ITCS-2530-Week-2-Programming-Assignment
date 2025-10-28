@@ -54,6 +54,7 @@ int main()
     cout << endl;
 
     cout << "On a scale of 1 to 10, how confident are you in Math? (1 being least and 10 being most): ";
+    // Input Validation
     if (!(cin >> confidenceLevel)){
         cout << "\nInvalid input. Please restart/re-run the program with correct data type for input." << endl;
         cin.clear();
@@ -62,6 +63,7 @@ int main()
     cout << endl;
 
     cout << "Enter number of hours you spend studying Math per week: ";
+    // Input Validation
     if (!(cin >> hoursSpentStudyingPerWeek)){
         cout << "\nInvalid input. Please restart/re-run the program with correct data type for input." << endl;
         cin.clear();
@@ -69,15 +71,17 @@ int main()
     }
     cout << endl;
 
+    // Calculations
     estimatedProblemsPerHour = static_cast<double> (problemsSolvedPerWeek) / hoursSpentStudyingPerWeek;
 
+    // Opening the output file
     outputFile.open("report.txt");
     if (!outputFile.is_open()){
         cout << "Error opening the file." << endl;
         return -1;
     }
 
-
+    // Writing to the output file with different foormatting styles
     outputFile << fixed << showpoint << setprecision(2);
 
     outputFile << left << setfill(' ') << setw(50) << "Name:" << right << setw(20) << setfill(' ') << name << endl;
