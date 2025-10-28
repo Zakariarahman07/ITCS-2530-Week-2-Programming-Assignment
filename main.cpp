@@ -1,7 +1,7 @@
 /*
 Author: Zakaria Rahman
 Date: October 26th, 2025
-Des15cription: This program collects user inputs and validates if they enter the correct input.
+Description: This program collects user inputs and validates if they enter the correct input.
              Also, it demonstrates file handling by writing to a file.
 Course: ITCS 2530 (C++ Programming 1)
 */
